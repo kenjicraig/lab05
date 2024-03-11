@@ -1,0 +1,12 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kenjicraig/Desktop/C++/lab05'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003758, symSize: 0x80 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x100003758, symSize: 0x80 }
+  - { offsetInCU: 0x6A, offset: 0x6A, size: 0x8, addend: 0x0, symName: _read_sales, symObjAddr: 0x80, symBinAddr: 0x1000037D8, symSize: 0xB8 }
+  - { offsetInCU: 0xB8, offset: 0xB8, size: 0x8, addend: 0x0, symName: _generate_sales_report, symObjAddr: 0x138, symBinAddr: 0x100003890, symSize: 0xDC }
+  - { offsetInCU: 0x106, offset: 0x106, size: 0x8, addend: 0x0, symName: _generate_summary_report, symObjAddr: 0x214, symBinAddr: 0x10000396C, symSize: 0x1A0 }
+  - { offsetInCU: 0x17E, offset: 0x17E, size: 0x8, addend: 0x0, symName: _generate_moving_average_report, symObjAddr: 0x3B4, symBinAddr: 0x100003B0C, symSize: 0x13C }
+  - { offsetInCU: 0x204, offset: 0x204, size: 0x8, addend: 0x0, symName: _generate_sorted_sales_report, symObjAddr: 0x4F0, symBinAddr: 0x100003C48, symSize: 0x1A4 }
+...
